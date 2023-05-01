@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div {
+    margin: auto;
+    height: 200px;
+    width: 30%;
+    border: 1px solid rgb(235, 232, 232);
+    border-radius: 1rem;
+    box-shadow: 1px 1px rgba(43, 42, 42, 0.349);
+}
+
+div h2 {
+    font-size: 2.5em;
+}
+
+.botao {
+    background-color: rgb(64, 21, 104);
+    color: white;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+    padding: auto;
+    font-size: 16px;
+    border: 1px solid rgb(235, 232, 232);
+    border-radius: 0.3rem;
+}
+
+.botao:hover {
+    background-color: rgb(122, 39, 199);
+    cursor: pointer;
+}
